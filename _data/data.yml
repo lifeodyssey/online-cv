@@ -98,7 +98,7 @@ experiences:
             - Database: PostgreSQL, MongoDB, MySQL
             - DevOps: Jenkins, CircleCI
             - Cloud: AWS, Terraform
-            - Test: Junit5, MockK, Mokito, Gatling
+            - Test: Junit5, MockK, Mokito, Gatling， Nginx
             - Others: Docker, Linux, Git, SQL
       - role:  Remote Sensing Engineer
         time: 2021 - 2022
