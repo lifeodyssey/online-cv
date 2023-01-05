@@ -96,7 +96,7 @@ experiences:
             - Backend: Spring Boot, Spring Data, Spring MVC, Spring Cloud, Kotlin Multiplatform, Express, Node.js
             - Frontend: React.js, Android, HTML, CSS
             - Database: PostgreSQL, MongoDB, MySQL
-            - DevOps: Jenkins, CircleCI
+            - DevOps: Jenkins, CircleCI, Github Actions
             - Cloud: AWS, Terraform
             - Test: Junit5, MockK, Mokito, Gatling， Nginx
             - Others: Docker, Linux, Git, SQL
