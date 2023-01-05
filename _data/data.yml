@@ -7,27 +7,20 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Zhenjia Zhou
+    tagline: Back-End Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    email: zhenjiazhou0127@outlook.com
+    phone: +86 156 5017 9824
+    timezone: China/Taiwan Timezone
+    citizenship: Chinese
+    website: lifeodyssey.github.io #do not add http://
+    linkedin: ZHENJIA ZHOU
+    github: lifeodyssey
+
+    pdf: http://lifeodyssey.github.io/online-cv/print
 
     languages:
       title: Languages
@@ -35,39 +28,34 @@ sidebar:
         - idiom: English
           level: Native
 
-        - idiom: French
-          level: Professional
+        - idiom: English
+          level: Business
 
-        - idiom: Spanish
-          level: Professional
-
-    interests:
-      title: Interests
-      info:
-        - item: Climbing
-          link:
-
-        - item: Snowboarding
-          link:
-
-        - item: Cooking
-          link:
+        - idiom: Japanese
+          level: Conversational
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+Zhenjia is an experienced developer in backend and machine learning with a strong foundation in computer science. 
+He has a deep understanding of various technologies and is dedicated to staying up-to-date with the latest techinical trends. 
+His background in Earth and Environment Science has provided him with a unique perspective and strong analytical skills.
+
+Zhenjia is an excellent communicator and collaborator, having worked with colleagues from a variety of countries. 
+His code is clean, well-organized, and follows the principles of TDD. 
+In addition to his technical abilities, Zhenjia has a strong desire to share his knowledge and contribute to the open source community. 
+This passion has played a key role in his decision to pursue a career in software engineering.
+
+With over a year of experience as a software engineer, Zhenjia is eager to continue learning and growing in his career. 
+He is seeking a position as a back-end developer where he can use his skills and experience to design and implement scalable and reliable systems. 
+His ultimate goal is to become a back-end architect, and he believes that his strong technical skills and ability to work effectively in a team make him a valuable asset to any organization.
+
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: MSc in Earth and Environmental Sciences
+        university: Nagoya University
+        time: 2019 - 2021
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -76,9 +64,9 @@ education:
           pretium quis, sem.
             - Bullet point
             - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+      - degree: BSc in Marine Rescource and Environment
+        university: Ocean University
+        time: 2015 - 2019
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -90,43 +78,40 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Backend Developer
+        time: 2022 - Present
+        company: Thoughtworks, Chengdu, China
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+            In this company, he primarily works on back-end development projects. 
+            He has developed a back-end domain for an insurance quote system for an international insurance company 
+            and implemented a CI/CD pipeline for an internal project. 
+            As a back-end developer, he is responsible for building microservices and BFFs and implementing RESTful APIs. 
+            He follows the principles of TDD and has a test coverage of over 80%. 
+            He has also performed performance testing. 
+            In addition, he is responsible for deploying back-end services. 
+            He introduced WASM to minimize the impact of third-party API changes and enable offline operation of the insurance quote service. 
+            He has also experimented with Kotlin multiplatform to generate unified back-end service logic for web and iOS front-ends, reducing the workload for other team members. 
+            As a DevOps, he has built a complete CI/CD pipeline with dev, QA, UAT, and production environments.
+            - Language: Kotlin(Java), Typescript, JavaScript
+            - Backend: Spring Boot, Spring Data, Spring MVC, Spring Cloud, Kotlin Multiplatform, Express, Node.js
+            - Frontend: React.js, Android, HTML, CSS
+            - Database: PostgreSQL, MongoDB, MySQL
+            - DevOps: Jenkins, CircleCI
+            - Cloud: AWS, Terraform
+            - Test: Junit5, MockK, Mokito, Gatling
+            - Others: Docker, Linux, Git, SQL
+      - role:  Remote Sensing Engineer
+        time: 2021 - 2022
+        company: Dadi Weattech Inc, Beijing, China
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+            In this company, he is the main responsible person for aquatic remote sensing image processing algorithms. 
+            He introduced a aquatic remote sensing image processing system based on SeaDAS, which produces basic aquatic products such as chlorophyll concentration, transparency, and suspended solids concentration for China's coastal and inland lakes. 
+            He developed an algal bloom satellite remote sensing algorithm based on machine learning, geostatistics, and the 6S radiation transfer model.  
+            This algorithm enables high temporal and spatial resolution monitoring of algal blooms.As the first inventor to file, he obtained a patent for this technology.
+            He also wrote processing scripts for some new satellites, such as HY1C/D, Himawari8, SGLI, and GOCI-Ⅱ, to enable parallel batch processing of remote sensing data. 
+            His work at this company greatly increased the company's competitiveness in the field.       
+            - Language: Python, R
+            - Libaray: numpy, GDAL, sci-kit learn, Pytorch, OpenCV
 projects:
     title: Projects
     intro: >
