@@ -111,7 +111,7 @@ experiences:
             He also wrote processing scripts for some new satellites, such as HY1C/D, Himawari-8, SGLI, and GOCI-II, to enable parallel batch processing of remote sensing data. 
             His work at this company greatly increased the company's competitiveness in the field.       
             - Language: Python, R
-            - Libaray: numpy, GDAL, sci-kit learn, Pytorch, OpenCV, Scipy, AutoML, XGBoost
+            - Libaray: Pandas, Numpy, GDAL, sci-kit learn, Pytorch, OpenCV, Scipy, AutoML, XGBoost
 
 oss:
     title: OSS Contributions
