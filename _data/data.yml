@@ -70,34 +70,32 @@ experiences:
         time: Apr.2022 - Present
         company: Thoughtworks, Chengdu, China
         details: |
-
-        project: Report Generator Internal Library
-        time: Apr.2022-Sep. 2022
+        Report Generator Internal Library, Apr.2022-Sep. 2022
         - Participated in full inception process from interview to proposal
         - Built fully automated CI/CD pipelines for containerized applications using Docker, AWS ECR, and AWS ECS on CircleCI, including four deployment environments (Dev, QA, Stage, and Prod).
         - Implement SQL translate module for the backend using Typescript,Express.js and Node.js
-        project: Global Qutation Platform For An International Insurance Company
-        time: Sep.2022-Mar. 2023
+
+        Global Qutation Platform For An International Insurance Company, Sep.2022-Mar. 2023
         - Implemented RESTful API for an international insurance company's insurance quotation micro-service using Spring Boot, Spring Cloud, along with conducting performance tests based on Gatling
         - Developed quotation iOS SDK using WebAssembly and Kotlin Multi-platform to enable offline quotation service.
         - Upgraded feature toggle SaaS services for the entire project, replacing the previous hard-coded feature toggle.
         - Collaborated with cross-functional teams in a multinational, Agile environment to deliver high-quality software on a regular basis, ensuring timely delivery of project milestones.
         - Proactively optimized the iOS SDK for efficient and seamless user experiences by identifying and resolving performance issues with the front-end development team.
-        project: Global Indentity And Access Manegement Platform for A internional Bank
-        time: Mar.2023-Apr. 2023
+
+        Global Indentity And Access Manegement Platform for A internional Bank, Mar.2023-Apr. 2023
         - Implemented indentity and access manegement logic like session manegement, SSO, registration and activiation inside microservice
         - Conducted API test to insure the funcionality
         - Collaborated with DevOps team to upgrate and refactor Jenkins CI/CD pipeline based on shared library
-       
+        
         Tech stack:
-        - Language: Kotlin/Java, Typescript, JavaScript
-        - Backend: Spring Boot, Spring Data, Spring MVC, Spring Cloud, Kotlin Multiplatform, Express, Node.js
-        - Frontend: React.js, Android, HTML, CSS
-        - Database: PostgreSQL, MongoDB, MySQL
-        - DevOps: Jenkins, CircleCI, Github Actions, Pipeline as Code
-        - Cloud: AWS, Terraform, Infrastructure as Code
-        - Test: Junit5, MockK, Mokito, Gatling
-        - Others: Docker, Linux, Git, SQL， Nginx, Test-Drive-Deployment
+          - Language: Kotlin/Java, Typescript, JavaScript
+          - Backend: Spring Boot, Spring Data, Spring MVC, Spring Cloud, Kotlin Multiplatform, Express, Node.js
+          - Frontend: React.js, Android, HTML, CSS
+          - Database: PostgreSQL, MongoDB, MySQL
+          - DevOps: Jenkins, CircleCI, Github Actions, Pipeline as Code
+          - Cloud: AWS, Terraform, Infrastructure as Code
+          - Test: Junit5, MockK, Mokito, Gatling
+          - Others: Docker, Linux, Git, SQL， Nginx, Test-Drive-Deployment
       - role:  Remote Sensing Engineer
         time: Nov.2021 - Feb.2022
         company: Dadi Weattech Inc, Beijing, China
