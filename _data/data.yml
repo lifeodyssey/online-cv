@@ -73,10 +73,12 @@ experiences:
             Report Generator Internal Library, Apr.2022-Sep. 2022
             - Participated in full inception process from interview to proposal
             - Built fully automated CI/CD pipelines for containerized applications using Docker, AWS ECR, and AWS ECS on CircleCI, including four deployment environments (Dev, QA, Stage, and Prod).
-            - Implement SQL translate module for the backend using Typescript,Express.js and Node.js
+            - Implemented SQL translate module for the backend using Typescript,Express.js and Node.js
+            - Speeded up current public sector project delivery velocity up to 30%
 
             Global Qutation Platform For An International Insurance Company, Sep.2022-Mar. 2023
             - Implemented RESTful API for an international insurance company's insurance quotation micro-service using Spring Boot, Spring Cloud, along with conducting performance tests based on Gatling
+            - Reduce quotation time from 3min to 10s-30s using in memory cache
             - Developed quotation iOS SDK using WebAssembly and Kotlin Multi-platform to enable offline quotation service.
             - Upgraded feature toggle SaaS services for the entire project, replacing the previous hard-coded feature toggle.
             - Collaborated with cross-functional teams in a multinational, Agile environment to deliver high-quality software on a regular basis, ensuring timely delivery of project milestones.
