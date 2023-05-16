@@ -84,10 +84,11 @@ experiences:
             - Collaborated with cross-functional teams in a multinational, Agile environment to deliver high-quality software on a regular basis, ensuring timely delivery of project milestones.
             - Proactively optimized the iOS SDK for efficient and seamless user experiences by identifying and resolving performance issues with the front-end development team.
 
-            Global Indentity And Access Manegement Platform for A internional Bank, Mar.2023-Apr. 2023
+            Global Indentity And Access Manegement Platform for A internional Bank, Mar.2023-May. 2023
             - Implemented indentity and access manegement logic like session manegement, SSO, registration and activiation inside microservice
-            - Conducted API test to insure the funcionality
+            - Conducted API test to insure the funcionality for user journey
             - Collaborated with DevOps team to upgrate and refactor Jenkins CI/CD pipeline based on shared library
+            - Set up monitor for  downstream system and infra using uptime-kuma on Red Hat OpenShift
             
             Tech stack:
               - Language: Kotlin/Java, Typescript, JavaScript
