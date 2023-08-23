@@ -3,6 +3,7 @@
 #
 
 sidebar:
+    position: right # position of the sidebar : left or right
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
@@ -38,8 +39,7 @@ career-profile:
     title: Career Profile
     summary: |
           Zhenjia is a backend software developer at Thoughtworks with some experience in DevOps and machine learning development. 
-          He is passionate about staying up-to-date with the latest technical trends and is a strong communicator and collaborator who writes clean, well-organized code. Zhenjia is 
-seeking a backend developer position to design and implement scalable, reliable systems.
+          He is passionate about staying up-to-date with the latest technical trends and is a strong communicator and collaborator who writes clean, well-organized code. 
           He is seeking a position as a backend developer where he can use his skills and experience to design and implement scalable and reliable systems. 
           His ultimate goal is to become a backend architect, and he believes that his strong technical skills and ability to work effectively in a team make him a valuable asset to any organization.
 
@@ -86,7 +86,7 @@ experiences:
             Direct To Customer E-commerce Platform for a global home appliance manufacturer, Jul,2023-now
             - Responsible for the investagation of payment solution during the request for proposal (RFP) phase for this new project.
             - Implemented Proof-Of-Concept payment integration using the redriect flow based on AWS Lambda and helped to won the RFP.
-            - Migrating old Direct To Customer webstore to PaaS and integrating with third-party market place
+            - Migrating old Direct To Customer webstore to PaaS and integrating with third-party marketplaces like Lazada and TickTock
             
             Tech stack:
               - Language: Kotlin/Java, Typescript, JavaScript
@@ -109,7 +109,6 @@ experiences:
             His work at this company greatly increased the company's competitiveness in the field.       
             - Language: Python, R
             - Libaray: Pandas, Numpy, GDAL, sci-kit learn, Pytorch, OpenCV, Scipy, AutoML, XGBoost
-
 oss:
     title: OSS Contributions
     contributions:
