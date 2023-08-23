@@ -129,12 +129,12 @@ skills:
       - name: Koltin & Spring
         level: 90%
 
-      - name: Python & Machine Learning
+      - name: TypeScript & Node.js
         level: 80%
 
-      - name: JavaScirpt & React.js
-        level: 70%
+      - name: Python & Machine Learning
+        level: 65%
 
-      - name: TypeScript & Node.js
-        level: 70%
+      - name: JavaScirpt & React.js
+        level: 65%
 
