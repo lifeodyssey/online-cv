@@ -37,16 +37,9 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-          Zhenjia is an experienced developer in backend and machine learning with a strong foundation in computer science. 
-          He has a deep understanding of various technologies and is dedicated to staying up-to-date with the latest techinical trends. 
-          His background in Earth and Environment Science has provided him with a unique perspective and strong analytical skills.
-
-          Zhenjia is an excellent communicator and collaborator, having worked with colleagues from a variety of countries. 
-          His code is clean, well-organized, and follows the principles of TDD. 
-          In addition to his technical abilities, Zhenjia has a strong desire to share his knowledge and contribute to the open source community. 
-          This passion has played a key role in his decision to pursue a career in software engineering.
-
-          With over a year of experience as a software engineer, Zhenjia is eager to continue learning and growing in his career. 
+          Zhenjia is a backend software developer at Thoughtworks with some experience in DevOps and machine learning development. 
+          He is passionate about staying up-to-date with the latest technical trends and is a strong communicator and collaborator who writes clean, well-organized code. Zhenjia is 
+seeking a backend developer position to design and implement scalable, reliable systems.
           He is seeking a position as a backend developer where he can use his skills and experience to design and implement scalable and reliable systems. 
           His ultimate goal is to become a backend architect, and he believes that his strong technical skills and ability to work effectively in a team make him a valuable asset to any organization.
 
@@ -90,10 +83,10 @@ experiences:
             - Collaborated with DevOps team to upgrate and refactor Jenkins CI/CD pipeline based on shared library, effectively reduced the onboarding time for new microservices.
             - Set up monitor for  downstream system and infra using uptime-kuma on Red Hat OpenShift, provided solid data for the decision of iteration planning.
             
-            Direct To Customer E-commerce Platform and Marketplace plugin for a global home appliance manufacturer, Jul,2023-now
+            Direct To Customer E-commerce Platform for a global home appliance manufacturer, Jul,2023-now
             - Responsible for the investagation of payment solution during the request for proposal (RFP) phase for this new project.
             - Implemented Proof-Of-Concept payment integration using the redriect flow based on AWS Lambda and helped to won the RFP.
-            - 
+            - Migrating old Direct To Customer webstore to PaaS and integrating with third-party market place
             
             Tech stack:
               - Language: Kotlin/Java, Typescript, JavaScript
@@ -101,7 +94,7 @@ experiences:
               - Frontend: React.js, Android, HTML, CSS
               - Database: PostgreSQL, MongoDB, MySQL
               - DevOps: Jenkins, CircleCI, Github Actions, Pipeline as Code
-              - Cloud: AWS, Terraform, Infrastructure as Code
+              - Cloud: AWS, Terraform, CloudFormation, Infrastructure as Code
               - Test: Junit5, MockK, Mokito, Gatling
               - Others: Docker, Linux, Git, SQL， Nginx, Test-Drive-Deployment
       - role:  Remote Sensing Engineer
