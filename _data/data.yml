@@ -25,8 +25,7 @@ sidebar:
 
     languages:
       title: Languages
-      info:
-   
+      info: |
         - idiom: English
           level: Business
 
@@ -62,7 +61,7 @@ experiences:
         time: Apr.2022 - Present
         company: Thoughtworks, Chengdu, China
         details: |
-          
+        
             Direct To Customer E-commerce Platform for a global home appliance manufacturer, Jul,2023-now
             - Responsible for the investagation of payment solution during the request for proposal (RFP) phase for this new project.
             - Implemented Proof-Of-Concept payment integration using the redriect flow based on AWS Lambda and helped to won the RFP.
@@ -73,11 +72,21 @@ experiences:
             - Conducted API test to insure the funcionality for user journey.
             - Collaborated with DevOps team to upgrate and refactor Jenkins CI/CD pipeline based on shared library, effectively reduced the onboarding time for new microservices.
             - Set up monitor for  downstream system and infra using uptime-kuma on Red Hat OpenShift, provided solid data for the decision of iteration planning.
+
+            Global Qutation Platform For A Global Insurance Company, Sep.2022-Mar. 2023
+            - Implemented RESTful API for an international insurance company's insurance quotation micro-service using Spring Boot, Spring Cloud, along with conducting performance tests based on Gatling
+            - Developed quotation iOS SDK using WebAssembly and Kotlin Multi-platform to enable offline quotation service.
+            - Upgraded feature toggle SaaS services for the entire project, replacing the previous hard-coded feature toggle.
+            - Collaborated with cross-functional teams in a multinational, Agile environment to deliver high-quality software on a regular basis, ensuring timely delivery of project milestones.
+            - Proactively optimized the iOS SDK for efficient and seamless user experiences by identifying and resolving performance issues with the front-end development team.
             
-            Direct To Customer E-commerce Platform and Marketplace plugin for a global home appliance manufacturer, Jul,2023-now
-            - Responsible for the investagation of payment solution during the request for proposal (RFP) phase for this new project.
-            - Implemented Proof-Of-Concept payment integration using the redriect flow based on AWS Lambda and helped to won the RFP.
-            - 
+            Report Generator Internal Library, Apr.2022-Sep. 2022
+            - Participated in full inception process from interview to proposal.
+            - Built fully automated CI/CD pipelines for containerized applications using Docker, AWS ECR, and AWS ECS on CircleCI, including four deployment environments (Dev, QA, Stage, and Prod).
+            - Implement SQL translate module for the backend using Typescript,Express.js and Node.js
+
+         
+  
             
             Tech stack:
               - Language: Kotlin/Java, Typescript, JavaScript
