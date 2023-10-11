@@ -59,7 +59,8 @@ experiences:
         time: Apr.2022 - Present
         company: Thoughtworks, Chengdu, China
         details: |
-            Direct To Customer E-commerce Platform for a global home appliance manufacturer, Jul,2023-now
+            Direct To Customer E-commerce Platform for a global home appliance manufacturer, Jul. 2023-now
+
             I played the role of sub-leader in this project, responsible for the integration middleware between SAP (order, price and inventory service) and a PaaS e-commers platform(which provide customer interface and back-office stuff interface).
             This middleware could achieve daily update of price and inventory and near real time update of order.
             - Responsible for the investagation of payment solution and Implemented Proof-Of-Concept payment integration based on AWS Lambda  during the request for proposal (RFP) phase for this new project.
@@ -67,7 +68,8 @@ experiences:
             - Implemented the logic of inventory and invoice update logic in the backend service.
             - Set up the service level logger and azure as a transition plan to inform back-office stuff of service error.
 
-            Global Indentity And Access Manegement Platform for An internional Bank, Mar.2023-Jun. 2023
+            Global Indentity And Access Manegement Platform for An internional Bank, Mar. 2023-Jun. 2023
+
             My main achievement in this project is to develop the "Single-Sign-On" and proposed the plan of seamless feature roll-out based on the stability monitor for downstream third-party service.
             - Developed Single-Sign-On authentication feature, enabling direct login from third-party apps via the primary banking application.
             - Proposed and led the seamless back-end system upgrades based on the results of a self-hosted monitor, utilizing the Strangler Pattern and Continuous Deployment, addressing instability issues in third-party authentication services.
@@ -75,7 +77,7 @@ experiences:
             - Collaborated with DevOps team to upgrade the CI/CD pipeline using Jenkins Shared Library, which reduced the onboarding time for new micro-services and supported agile development.
             - Set up monitor for  downstream system and infra using uptime-kuma on Red Hat OpenShift, provided solid data for the decision of iteration planning.
 
-            Global Qutation Platform For A Global Insurance Company, Sep.2022-Mar. 2023
+            Global Qutation Platform For A Global Insurance Company, Sep. 2022-Mar. 2023
             - Implemented RESTful API for an international insurance company's insurance quotation micro-service using Spring Boot, with the enablement of offline sdk based on Kotlin Multiplatform.
             - Enhanced the insurance quotation module to achieve 50\% improved API response times through in-memory caching and API optimization, using insights from simulated real-world user scenarios with Gatling.
             - Upgraded feature toggle SaaS services for the entire project, replacing the previous hard-coded feature toggle.
