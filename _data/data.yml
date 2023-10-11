@@ -99,7 +99,7 @@ experiences:
               - Others: Linux, Git, SQL， Nginx, IntelliJ IDEA, Postman, Confluence, Jira, Trello
 
 
-      - role:  Remote Sensing Engineer
+      - role: Remote Sensing Engineer
         time: Nov.2021 - Feb.2022
         company: Dadi Weattech Inc, Beijing, China
         details: |
@@ -133,7 +133,23 @@ oss:
         link: "https://github.com/lifeodyssey/RayleighCorrection"
         tagline: "Rayleigh Correction implementation based on 6S radiation transfer simulation for remote sensing satellites images including GK2A, Himawari-8, etc "
 
+certifications:
+      title: Stripe Certified Associate Developer
+      list:
+        - name: Stripe Certified Associate Developer
+          start: 2023
+          end: 2025
+          organization: Stripe
+          credentialid: 83656858
+          credentialurl: https://stripecertifications.credential.net/5b6b164b-7d3d-4398-8e50-23b90f114378#gs.6939gu
 
+        - name: Architecting on AWS with AWS Jam
+          start: 2023
+          end: 2026
+          organization: AWS
+          credentialid: 111-222
+          credentialurl: https://stripecertifications.credential.net/5b6b164b-7d3d-4398-8e50-23b90f114378
+          credentialname: AWS
 skills:
     title: Skills &amp; Proficiency
 
