@@ -86,7 +86,7 @@ experiences:
             - Built fully automated CI/CD pipelines for containerized applications using Docker, AWS ECR, and AWS ECS on CircleCI, including four deployment environments (Dev, QA, Stage, and Prod).
             - Implement SQL translate module for the backend using Typescript,Express.js and Node.js
             
-          Tech Stack:
+          Tech Stack: |
               - Language: Kotlin, Typescript, JavaScript
               - Backend: Spring Boot, Spring Data, Spring MVC, Kotlin Multiplatform, Express, Node.js
               - Database: PostgreSQL, MongoDB, MySQL
@@ -115,12 +115,13 @@ oss:
     contributions:
       - title: Backend Demo
         link: "https://github.com/lifeodyssey/demo"
-        tagline: "This code repository is a demonstration of basic work and best practices for backend development. The main feature is
+        tagline: |
+        This code repository is a demonstration of basic work and best practices for backend development. The main feature is
         - Jenkins CI/CD pipeline and blue/green deployment using Nginx.
         - Basic CRUD RESTFULL API with TDD
         - MongoDB migration using Mongock
         - Exception handling
-        -Logging"
+        - Logging
       - title: obsidian-hexo-auto-update
         link: "https://github.com/lifeodyssey/obsidian-hexo-auto-update"
         tagline: "The Obsidian-Hexo Integration plugin allows you to monitor changes in your Obsidian vault, specifically the _posts folder, and automatically commit and push them to your Hexo blog repository, without set up local node.js environment and accelerate the speed from writing to publishment."
