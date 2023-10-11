@@ -87,16 +87,16 @@ experiences:
             - Participated in full software development life cycle process from interview, proposal to development and internal release.
             - Built fully automated CI/CD pipelines for containerized applications using Docker, AWS ECR, and AWS ECS on CircleCI, including four deployment environments (Dev, QA, Stage, and Prod).
             - Implement SQL translate module for the backend using Typescript,Express.js and Node.js
-            
-          Tech Stack: |
-              - Language: Kotlin, Typescript, JavaScript
-              - Backend: Spring Boot, Spring Data, Spring MVC, Kotlin Multiplatform, Express, Node.js
-              - Database: PostgreSQL, MongoDB, MySQL
-              - DevOps: Jenkins, CircleCI, Github Actions, Pipeline as Code, Docker
-              - Cloud: AWS, Terraform, CloudFormation, Infrastructure as Code
-              - Test: Junit5, MockK, Mokito, Gatling
-              - Methodologies: Scrum, XP, Agile, RESTful API, Test Driven Development
-              - Others: Linux, Git, SQL， Nginx, IntelliJ IDEA, Postman, Confluence, Jira, Trello
+           
+        Tech Stack: 
+            - Language: Kotlin, Typescript, JavaScript
+            - Backend: Spring Boot, Spring Data, Spring MVC, Kotlin Multiplatform, Express, Node.js
+            - Database: PostgreSQL, MongoDB, MySQL
+            - DevOps: Jenkins, CircleCI, Github Actions, Pipeline as Code, Docker
+            - Cloud: AWS, Terraform, CloudFormation, Infrastructure as Code
+            - Test: Junit5, MockK, Mokito, Gatling
+            - Methodologies: Scrum, XP, Agile, RESTful API, Test Driven Development
+            - Others: Linux, Git, SQL， Nginx, IntelliJ IDEA, Postman, Confluence, Jira, Trello
 
 
       - role: Remote Sensing Engineer
@@ -108,7 +108,7 @@ experiences:
             - Developed a data-driven satellite remote sensing algorithm utilizing machine learning and geo-statistics for efficient water quality monitoring, demonstrating analytical and problem-solving skills.
             - Enhanced data processing efficiency by implementing parallel batch processing for multiple satellite data sources, highlighting performance optimization skills.
             - communicated complex remote sensing-based technology solutions to stakeholders, demonstrating strong presentation and interpersonal skills.
-          Tech Stack:  
+        Tech Stack:  
             - Language: Python, R
             - Libaray: Pandas, Numpy, GDAL, sci-kit learn, Pytorch, OpenCV, Scipy, AutoML, XGBoost
 
