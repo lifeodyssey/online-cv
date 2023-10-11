@@ -100,6 +100,7 @@ experiences:
             - Cloud: AWS, Terraform
             - Test: Junit5, MockK, Mokito, Gatling， Nginx
             - Others: Docker, Linux, Git, SQL
+            
       - role:  Remote Sensing Engineer
         time: 2021 - 2022
         company: Dadi Weattech Inc, Beijing, China
