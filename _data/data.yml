@@ -74,7 +74,7 @@ experiences:
             - Conducted API test to insure the funcionality for user journey.
             - Collaborated with DevOps team to upgrade the CI/CD pipeline using Jenkins Shared Library, which reduced the onboarding time for new micro-services and supported agile development.
             - Set up monitor for  downstream system and infra using uptime-kuma on Red Hat OpenShift, provided solid data for the decision of iteration planning.
-            
+
             Global Qutation Platform For A Global Insurance Company, Sep. 2022-Mar. 2023
             Actived as a backend developer to build backend backend-for-frontend service for the quotation platform.
             - Implemented RESTful API for an international insurance company's insurance quotation micro-service using Spring Boot, with the enablement of offline sdk based on Kotlin Multiplatform.
