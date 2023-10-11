@@ -59,53 +59,54 @@ experiences:
         time: Apr.2022 - Present
         company: Thoughtworks, Chengdu, China
         details: |
-        
             Direct To Customer E-commerce Platform for a global home appliance manufacturer, Jul,2023-now
-            - Responsible for the investagation of payment solution during the request for proposal (RFP) phase for this new project.
-            - Implemented Proof-Of-Concept payment integration using the redriect flow based on AWS Lambda and helped to won the RFP.
-            - Migrating old Direct To Customer webstore to PaaS and integrating with third-party marketplaces like Lazada and TickTock.
+            I played the role of sub-leader in this project, responsible for the integration middleware between SAP (order, price and inventory service) and a PaaS e-commers platform(which provide customer interface and back-office stuff interface).
+            This middleware could achieve daily update of price and inventory and near real time update of order.
+            - Responsible for the investagation of payment solution and Implemented Proof-Of-Concept payment integration based on AWS Lambda  during the request for proposal (RFP) phase for this new project.
+            - Co-desgined the solution to update PasS in-time based on message queue and asynchronous callback.
+            - Implemented the logic of inventory and invoice update logic in the backend service.
+            - Set up the service level logger and azure as a transition plan to inform back-office stuff of service error.
 
             Global Indentity And Access Manegement Platform for An internional Bank, Mar.2023-Jun. 2023
-            - Implemented Single-Sign-On based on Singpass and contributed to seamless backend service upgration with Strangler Pattern.
+            My main achievement in this project is to develop the "Single-Sign-On" and proposed the plan of seamless feature roll-out based on the stability monitor for downstream third-party service.
+            - Developed Single-Sign-On authentication feature, enabling direct login from third-party apps via the primary banking application.
+            - Proposed and led the seamless back-end system upgrades based on the results of a self-hosted monitor, utilizing the Strangler Pattern and Continuous Deployment, addressing instability issues in third-party authentication services.
             - Conducted API test to insure the funcionality for user journey.
-            - Collaborated with DevOps team to upgrate and refactor Jenkins CI/CD pipeline based on shared library, effectively reduced the onboarding time for new microservices.
+            - Collaborated with DevOps team to upgrade the CI/CD pipeline using Jenkins Shared Library, which reduced the onboarding time for new micro-services and supported agile development.
             - Set up monitor for  downstream system and infra using uptime-kuma on Red Hat OpenShift, provided solid data for the decision of iteration planning.
 
             Global Qutation Platform For A Global Insurance Company, Sep.2022-Mar. 2023
-            - Implemented RESTful API for an international insurance company's insurance quotation micro-service using Spring Boot, Spring Cloud, along with conducting performance tests based on Gatling
-            - Developed quotation iOS SDK using WebAssembly and Kotlin Multi-platform to enable offline quotation service.
+            - Implemented RESTful API for an international insurance company's insurance quotation micro-service using Spring Boot, with the enablement of offline sdk based on Kotlin Multiplatform.
+            - Enhanced the insurance quotation module to achieve 50\% improved API response times through in-memory caching and API optimization, using insights from simulated real-world user scenarios with Gatling.
             - Upgraded feature toggle SaaS services for the entire project, replacing the previous hard-coded feature toggle.
             - Collaborated with cross-functional teams in a multinational, Agile environment to deliver high-quality software on a regular basis, ensuring timely delivery of project milestones.
-            - Proactively optimized the iOS SDK for efficient and seamless user experiences by identifying and resolving performance issues with the front-end development team.
-            
+   
             Report Generator Internal Library, Apr.2022-Sep. 2022
-            - Participated in full inception process from interview to proposal.
+            - Participated in full software development life cycle process from interview, proposal to development and internal release.
             - Built fully automated CI/CD pipelines for containerized applications using Docker, AWS ECR, and AWS ECS on CircleCI, including four deployment environments (Dev, QA, Stage, and Prod).
             - Implement SQL translate module for the backend using Typescript,Express.js and Node.js
-
-         
-  
             
-            Tech stack:
-              - Language: Kotlin/Java, Typescript, JavaScript
-              - Backend: Spring Boot, Spring Data, Spring MVC, Spring Cloud, Kotlin Multiplatform, Express, Node.js
-              - Frontend: React.js, Android, HTML, CSS
+          Tech Stack:
+              - Language: Kotlin, Typescript, JavaScript
+              - Backend: Spring Boot, Spring Data, Spring MVC, Kotlin Multiplatform, Express, Node.js
               - Database: PostgreSQL, MongoDB, MySQL
-              - DevOps: Jenkins, CircleCI, Github Actions, Pipeline as Code
+              - DevOps: Jenkins, CircleCI, Github Actions, Pipeline as Code, Docker
               - Cloud: AWS, Terraform, CloudFormation, Infrastructure as Code
               - Test: Junit5, MockK, Mokito, Gatling
-              - Others: Docker, Linux, Git, SQL， Nginx, Test-Drive-Deployment
+              - Methodologies: Scrum, XP, Agile, RESTful API, Test Driven Development
+              - Others: Linux, Git, SQL， Nginx, IntelliJ IDEA, Postman, Confluence, Jira, Trello
+
 
       - role:  Remote Sensing Engineer
         time: Nov.2021 - Feb.2022
         company: Dadi Weattech Inc, Beijing, China
         details: |
             In this company, he is the main responsible person for aquatic remote sensing image processing algorithms. 
-            He introduced a aquatic remote sensing image processing system based on SeaDAS, which produces basic aquatic products such as chlorophyll concentration, transparency, and suspended solids concentration for China's coastal and inland lakes. 
-            He developed an algal bloom satellite remote sensing algorithm based on machine learning, geostatistics, and the 6S radiation transfer model.  
-            This algorithm enables high temporal and spatial resolution monitoring of algal blooms.As the first inventor to file, he obtained a patent for this technology.
-            He also wrote processing scripts for some new satellites, such as HY1C/D, Himawari-8, SGLI, and GOCI-II, to enable parallel batch processing of remote sensing data. 
-            His work at this company greatly increased the company's competitiveness in the field.       
+            - Introduced the company to the aquatic remote sensing image processing system based on SeaDAS, demonstrating the ability to research, learn, and share new technologies to improve the company's competitiveness.
+            - Developed a data-driven satellite remote sensing algorithm utilizing machine learning and geo-statistics for efficient water quality monitoring, demonstrating analytical and problem-solving skills.
+            - Enhanced data processing efficiency by implementing parallel batch processing for multiple satellite data sources, highlighting performance optimization skills.
+            - communicated complex remote sensing-based technology solutions to stakeholders, demonstrating strong presentation and interpersonal skills.
+          Tech Stack:  
             - Language: Python, R
             - Libaray: Pandas, Numpy, GDAL, sci-kit learn, Pytorch, OpenCV, Scipy, AutoML, XGBoost
 
@@ -114,7 +115,16 @@ oss:
     contributions:
       - title: Backend Demo
         link: "https://github.com/lifeodyssey/demo"
-        tagline: "A demo application for basic backend development and best practices"
+        tagline: "This code repository is a demonstration of basic work and best practices for backend development. The main feature is
+        - Jenkins CI/CD pipeline and blue/green deployment using Nginx.
+        - Basic CRUD RESTFULL API with TDD
+        - MongoDB migration using Mongock
+        - Exception handling
+        -Logging"
+      - title: obsidian-hexo-auto-update
+        link: "https://github.com/lifeodyssey/obsidian-hexo-auto-update"
+        tagline: "The Obsidian-Hexo Integration plugin allows you to monitor changes in your Obsidian vault, specifically the _posts folder, and automatically commit and push them to your Hexo blog repository, without set up local node.js environment and accelerate the speed from writing to publishment."
+
 
       - title: Rayleigh Correction
         link: "https://github.com/lifeodyssey/RayleighCorrection"
@@ -125,7 +135,7 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Koltin & Spring
+      - name: Koltin & Spring Boot
         level: 90%
 
       - name: TypeScript & Node.js
