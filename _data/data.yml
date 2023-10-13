@@ -25,12 +25,12 @@ sidebar:
 
     languages:
       title: Languages
-      info: |
+      info:
         - idiom: English
-          level: Business
+          level: Business 
 
         - idiom: Japanese
-          level: Conversational(JLPT N2)
+          level: Intermediate (JLPT N2 109)
 
 career-profile:
     title: Career Profile
