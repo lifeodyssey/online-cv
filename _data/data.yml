@@ -67,7 +67,6 @@ experiences:
             - Responsible for the investagation of payment solution and Implemented Proof-Of-Concept payment integration based on AWS Lambda  during the request for proposal (RFP) phase for this new project.
             - Co-desgined the solution to update PasS in-time based on message queue and asynchronous callback.
             - Implemented the logic of inventory and invoice update logic in the backend service.
-            - Set up the service level logger and azure as a transition plan to inform back-office stuff of service error.
 
             Global Indentity And Access Manegement Platform for An internional Bank, Mar. 2023-Jun. 2023
 
@@ -116,7 +115,7 @@ experiences:
             - Introduced the company to the aquatic remote sensing image processing system based on SeaDAS, demonstrating the ability to research, learn, and share new technologies to improve the company's competitiveness.
             - Developed a data-driven satellite remote sensing algorithm utilizing machine learning and geo-statistics for efficient water quality monitoring, demonstrating analytical and problem-solving skills.
             - Enhanced data processing efficiency by implementing parallel batch processing for multiple satellite data sources, highlighting performance optimization skills.
-            - communicated complex remote sensing-based technology solutions to stakeholders, demonstrating strong presentation and interpersonal skills.
+            - Communicated complex remote sensing-based technology solutions to stakeholders, demonstrating strong presentation and interpersonal skills.
         Tech Stack:  
             - Language: Python, R
             - Libaray: Pandas, Numpy, GDAL, sci-kit learn, Pytorch, OpenCV, Scipy, AutoML, XGBoost
