@@ -63,10 +63,10 @@ experiences:
 
             I played the role of sub-leader in this project, responsible for the integration middleware between SAP (order, price and inventory service) and a PaaS e-commers platform(which provide customer interface and back-office stuff interface).
             
-            This middleware could achieve daily update of price and inventory and near real time update of order.
-            - Responsible for the investagation of payment solution and Implemented Proof-Of-Concept payment integration based on AWS Lambda  during the request for proposal (RFP) phase for this new project.
-            - Co-desgined the solution to update PasS in-time based on message queue and asynchronous callback.
-            - Implemented the logic of inventory and invoice update logic in the backend service.
+            This middleware could achieve daily update of price and inventory and near real time sync of order.
+            - Responsible for the investagation of payment solution and Implemented Proof-Of-Concept payment integration based on AWS Lambda  during the request for proposal phase for this new project.
+            - Co-desgined and implemented the solution to sync order from PasS in-time to SAP based on message queue and asynchronous callback.
+            - In order to achieve transactional daily inventory and price update, which are based on AWS Lambda, design and implemented the retry based on AWS SQS and alert based on AWS CloudWatch.
 
             Global Indentity And Access Manegement Platform for An internional Bank, Mar. 2023-Jun. 2023
 
