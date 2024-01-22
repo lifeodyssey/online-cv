@@ -61,46 +61,55 @@ experiences:
         details: |
             Direct To Customer E-commerce Platform for a global home appliance manufacturer, Jul. 2023-now
 
-            I played the role of sub-leader in this project, responsible for the integration middleware between SAP (order, price and inventory service) and a PaaS e-commers platform(which provide customer interface and back-office stuff interface).
+            I played the role of ssub-leader in this project, responsible for integrating middleware between SAP (order, price, product and inventory service) and a PaaS e-commerce platform (which provides customer interface and back-office stuff interface).
             
-            This middleware could achieve daily update of price and inventory and near real time sync of order.
-            - Responsible for the investagation of payment solution and Implemented Proof-Of-Concept payment integration based on AWS Lambda  during the request for proposal phase for this new project.
-            - Co-desgined and implemented the solution to sync order from PasS in-time to SAP based on message queue and asynchronous callback.
-            - In order to achieve transactional daily inventory and price update, which are based on AWS Lambda, design and implemented the retry based on AWS SQS and alert based on AWS CloudWatch.
+            This middleware could achieve daily updates of price, inventory and product and near real time sync of order.
+            - Responsible for investigating payment solutions and implementing a Proof-Of-Concept payment integration based on AWS Lambda during the request for proposal phase for this new project.
+            - Co-designed and implemented the solution to sync order from PasS in real time to SAP based on message queue and asynchronous callback.
+            - Designed, implemented and refactor order mapper for objects with more than five hundred fields using Chain of Responsibility and Strategy patterns
+            - In order to achieve transactional and sequential daily price, inventory, and product update, which are based on Azure functions, designed and implemented the retry and rollback meachanism by Saga Coordinator and overriding Feign client retryer.
+            - Designed and setup the email alert based on Azure  Alert and Azure Logic Apps.
+            - Support the system integration test, user acceptance test and roll out in Thailand.
+            - Followed the Test-Driven Development approach under trunk based strategy, maintained the test coverage of more than 90\%.
 
             Global Indentity And Access Manegement Platform for An internional Bank, Mar. 2023-Jun. 2023
 
-            My main achievement in this project is to develop the "Single-Sign-On" and proposed the plan of seamless feature roll-out based on the stability monitor for downstream third-party service.
+            My main achievement in this project was the development the "Single-Sign-On" and proposal of seamless feature roll-out based on the stability monitor for downstream third-party service.
             
             - Developed Single-Sign-On authentication feature, enabling direct login from third-party apps via the primary banking application.
             - Proposed and led the seamless back-end system upgrades based on the results of a self-hosted monitor, utilizing the Strangler Pattern and Continuous Deployment, addressing instability issues in third-party authentication services.
-            - Conducted API test to insure the funcionality for user journey.
+            - Conducted API test to ensure the funcionality for user journey.
             - Collaborated with DevOps team to upgrade the CI/CD pipeline using Jenkins Shared Library, which reduced the onboarding time for new micro-services and supported agile development.
-            - Set up monitor for  downstream system and infra using uptime-kuma on Red Hat OpenShift, provided solid data for the decision of iteration planning.
+            - Set up monitor for downstream system and infra using uptime-kuma on Red Hat OpenShift, provided solid data for the decision of iteration planning.
+            - Followed the Test-Driven Development approach under feature branching strategy, maintained the test coverage of more than 90\%.
 
             Global Qutation Platform For A Global Insurance Company, Sep. 2022-Mar. 2023
             
-            Actived as a backend developer to build backend backend-for-frontend service for the quotation platform.
+            Acted as a backend developer to build backend-for-frontend service for the quotation platform.
             
-            - Implemented RESTful API for an international insurance company's insurance quotation micro-service using Spring Boot, with the enablement of offline sdk based on Kotlin Multiplatform.
+            - Implemented RESTful API for an international insurance company's insurance quotation micro-service using Spring Boot, with the enablement of and offline sdk based on Kotlin Multiplatform.
             - Enhanced the insurance quotation module to achieve 50\% improved API response times through in-memory caching and API optimization, using insights from simulated real-world user scenarios with Gatling.
             - Upgraded feature toggle SaaS services for the entire project, replacing the previous hard-coded feature toggle.
             - Collaborated with cross-functional teams in a multinational, Agile environment to deliver high-quality software on a regular basis, ensuring timely delivery of project milestones.
+            - Followed the Test-Driven Development approach under trunk based strategy, maintained the test coverage of more than 90\%.
+
    
             Report Generator Internal Library, Apr.2022-Sep. 2022
             
-            Mainly played the role as a DevOps to build the CI/CD pipeline
+            Mainly played the role of a DevOps engineer to build the CI/CD pipeline
             
-            - Participated in full software development life cycle process from interview, proposal to development and internal release.
+            - Participated in full software development life cycle process, from interview, proposal to development and internal release.
             - Built fully automated CI/CD pipelines for containerized applications using Docker, AWS ECR, and AWS ECS on CircleCI, including four deployment environments (Dev, QA, Stage, and Prod).
             - Implement SQL translate module for the backend using Typescript,Express.js and Node.js
+            - Followed the Test-Driven Development approach under trunk based strategy, maintained the test coverage of more than 90\%.
+
            
         Tech Stack: 
             - Language: Kotlin, Typescript, JavaScript
-            - Backend: Spring Boot, Spring Data, Spring MVC, Kotlin Multiplatform, Express, Node.js
+            - Backend: Spring Boot, Spring Data, Spring MVC, Kotlin Multiplatform, Nest.js, Node.js
             - Database: PostgreSQL, MongoDB, MySQL
             - DevOps: Jenkins, CircleCI, Github Actions, Pipeline as Code, Docker
-            - Cloud: AWS, Terraform, CloudFormation, Infrastructure as Code
+            - Cloud: AWS, Terraform, CloudFormation, Infrastructure as Code, Azure
             - Test: Junit5, MockK, Mokito, Gatling
             - Methodologies: Scrum, XP, Agile, RESTful API, Test Driven Development
             - Others: Linux, Git, SQL， Nginx, IntelliJ IDEA, Postman, Confluence, Jira, Trello
