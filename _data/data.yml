@@ -141,7 +141,7 @@ oss:
     title: OSS Contributions
     contributions:
       - title: Backend Demo
-        link: "https://github.com/lifeodyssey/demo"
+        link: "https://github.com/lifeodyssey/microservice-demo"
         tagline: "This code repository is a demonstration of basic work and best practices for backend development"
 
       - title: obsidian-hexo-auto-update
