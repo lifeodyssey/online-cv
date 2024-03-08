@@ -60,7 +60,7 @@ experiences:
         company: Thoughtworks, Chengdu, China
         details: |
             
-            Physican's "Duolingo" - An AI based web application for better medical desicion makeing, Feb. 2024- now
+            <strong>Physican's "Duolingo" - An AI based web application for better medical desicion making, Feb. 2024- now</strong>
 
             This project's goal is to develop a physician's version of "Duolingo" to enhance the skills of junior physicians using AI.
             I've been involved in this project since the design phase, contributing to the architecture, API, and database design. 
@@ -130,7 +130,7 @@ experiences:
 
             - Discovered and improved the efficiency of the logging of the backend system, include AWS X-Ray SDK integration and logging middleware implementation.
             - Implemented unit test and API test , fixed bugs for backend service. 
-        Tech Stack:  Typescript, NestJS, Prisima, LocalStack, AWS Lambda,AWS S3, Circle CI, Jest, Mocha
+        Tech Stack:  Typescript, NestJS, Prisima, LocalStack, AWS Lambda,AWS S3, Circle CI, Jest, Mocha, PostgreSQL
 
       - role: Remote Sensing Engineer
         time: Nov.2021 - Feb.2022
