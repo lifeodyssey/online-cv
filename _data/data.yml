@@ -59,14 +59,22 @@ experiences:
         time: Apr.2022 - Present
         company: Thoughtworks, Chengdu, China
         details: |
-            Direct To Customer E-commerce Platform for a global home appliance manufacturer, Jul. 2023-now
+            
+            Physican's "Duolingo" - An AI based web application for better medical desicion makeing, Feb. 2024- now
 
-            I played the role of ssub-leader in this project, responsible for integrating middleware between SAP (order, price, product and inventory service) and a PaaS e-commerce platform (which provides customer interface and back-office stuff interface).
+            This project's goal is to develop a physician's version of "Duolingo" to enhance the skills of junior physicians using AI.
+            I've been involved in this project since the design phase, contributing to the architecture, API, and database design. 
+            Currently,my focus is the development of backend using Python and Flask. 
+            Additionally, I am tasked with building the backend CI/CD pipeline using Github Actions and AWS.
+
+            Direct To Customer E-commerce Platform for a global home appliance manufacturer, Jul. 2023-Jan. 2024
+
+            I played the role of sub-leader in this project, responsible for integrating middleware between SAP (order, price, product and inventory service) and a PaaS e-commerce platform (which provides customer interface and back-office stuff interface).
             
             This middleware could achieve daily updates of price, inventory and product and near real time sync of order.
             - Responsible for investigating payment solutions and implementing a Proof-Of-Concept payment integration based on AWS Lambda during the request for proposal phase for this new project.
             - Co-designed and implemented the solution to sync order from PasS in real time to SAP based on message queue and asynchronous callback.
-            - Designed, implemented and refactor order mapper for objects with more than five hundred fields using Chain of Responsibility and Strategy patterns
+            - Designed, implemented and refactor service modules for objects with more than five hundred fields using Chain of Responsibility and Strategy Patterns
             - In order to achieve transactional and sequential daily price, inventory, and product update, which are based on Azure functions, designed and implemented the retry and rollback meachanism by Saga Coordinator and overriding Feign client retryer.
             - Designed and setup the email alert based on Azure  Alert and Azure Logic Apps.
             - Support the system integration test, user acceptance test and roll out in Thailand.
@@ -74,7 +82,7 @@ experiences:
 
             Global Indentity And Access Manegement Platform for An internional Bank, Mar. 2023-Jun. 2023
 
-            My main achievement in this project was the development the "Single-Sign-On" and proposal of seamless feature roll-out based on the stability monitor for downstream third-party service.
+            My main achievement in this project was the development the user identification logic and proposal of seamless feature roll-out based on the stability monitor for downstream third-party service.
             
             - Developed Single-Sign-On authentication feature, enabling direct login from third-party apps via the primary banking application.
             - Proposed and led the seamless back-end system upgrades based on the results of a self-hosted monitor, utilizing the Strangler Pattern and Continuous Deployment, addressing instability issues in third-party authentication services.
@@ -105,8 +113,8 @@ experiences:
 
            
         Tech Stack: 
-            - Language: Kotlin, Typescript, JavaScript
-            - Backend: Spring Boot, Spring Data, Spring MVC, Kotlin Multiplatform, Nest.js, Node.js
+            - Language: Kotlin, Typescript, JavaScript, Python
+            - Backend: Spring Boot, Spring Data, Spring MVC, Kotlin Multiplatform, Nest.js, Node.js, Flask
             - Database: PostgreSQL, MongoDB, MySQL
             - DevOps: Jenkins, CircleCI, Github Actions, Pipeline as Code, Docker
             - Cloud: AWS, Terraform, CloudFormation, Infrastructure as Code, Azure
