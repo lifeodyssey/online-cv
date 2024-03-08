@@ -122,12 +122,21 @@ experiences:
             - Methodologies: Scrum, XP, Agile, RESTful API, Test Driven Development
             - Others: Linux, Git, SQL， Nginx, IntelliJ IDEA, Postman, Confluence, Jira, Trello
 
+      - role: Backend Developer(partime, remotely)
+        time: Oct. 2023- Dec. 2023
+        company: Grid Solution, Tokyo, Japan
+        details: |
+            I participated in the backend development of Bidder, a web application for electric power predication and trade.
+
+            - Discovered and improved the efficiency of the logging of the backend system, include AWS X-Ray SDK integration and logging middleware implementation.
+            - Implemented unit test and API test , fixed bugs for backend service. 
+        Tech Stack:  Typescript, NestJS, Prisima, LocalStack, AWS Lambda,AWS S3, Circle CI, Jest, Mocha
 
       - role: Remote Sensing Engineer
         time: Nov.2021 - Feb.2022
         company: Dadi Weattech Inc, Beijing, China
         details: |
-            In this company, he is the main responsible person for aquatic remote sensing image processing algorithms. 
+            In this company, I'm the main responsible person for aquatic remote sensing image processing algorithms. 
 
             - Introduced the company to the aquatic remote sensing image processing system based on SeaDAS, demonstrating the ability to research, learn, and share new technologies to improve the company's competitiveness.
             - Developed a data-driven satellite remote sensing algorithm utilizing machine learning and geo-statistics for efficient water quality monitoring, demonstrating analytical and problem-solving skills.
