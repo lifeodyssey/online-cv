@@ -60,21 +60,18 @@ experiences:
         company: Thoughtworks, Chengdu, China
         overview: |
             Throughout my time at Thoughtworks, I've consistently applied a robust set of methodologies and tools across  projects.
-
-             My expertise spans Scrum, XP, Agile practices, and the RESTful API development approach, underpinned by a commitment to Test-Driven Development (TDD). 
-
-             I'm proficient in Linux, Git, and SQL, and utilize tools such as Nginx, IntelliJ IDEA, Postman, Confluence, Jira, and Trello to enhance project delivery and collaboration. 
-             
-             My technical versatility is further demonstrated through my engagement with diverse tech stacks, adapting to project-specific needs while maintaining high standards of software development and DevOps practices.
-        
-
+              - Methodologies: Scrum, XP, Agile, RESTful API, Test Driven Development
+              - Tools and more: Linux, Git, SQL， Nginx, IntelliJ IDEA, Postman, Confluence, Jira, Trello
         details: |
             
             <strong>Physican's "Duolingo" - An AI based web application for better medical desicion making, Feb. 2024-now</strong>
 
             This project's goal is to develop a physician's version of "Duolingo" to enhance the skills of junior physicians using AI.
+            
             I've been involved in this project since the design phase, contributing to the architecture, API, and database design. 
+            
             Currently,my focus is the development of backend using Python and Flask. 
+            
             Additionally, I am tasked with building the backend CI/CD pipeline using Github Actions and AWS.
 
             Tech Stack: 
