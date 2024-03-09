@@ -131,7 +131,7 @@ experiences:
             Acted as a backend developer to build backend-for-frontend service for the quotation platform.
             
             - Implemented RESTful API for an international insurance company's insurance quotation micro-service using Spring Boot, with the enablement of and offline sdk based on Kotlin Multiplatform.
-            - Enhanced the insurance quotation module to achieve 50\% improved API response times through in-memory caching and API optimization, using insights from simulated real-world user scenarios with Gatling.
+            - Enhanced the insurance quotation module to achieve 50% improved API response times through in-memory caching and API optimization, using insights from simulated real-world user scenarios with Gatling.
             - Upgraded feature toggle SaaS services for the entire project, replacing the previous hard-coded feature toggle.
             - Collaborated with cross-functional teams in a multinational, Agile environment to deliver high-quality software on a regular basis, ensuring timely delivery of project milestones.
             - Followed the Test-Driven Development approach under trunk based strategy, maintained the test coverage of more than 90\%.
