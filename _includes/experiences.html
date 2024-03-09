@@ -21,6 +21,13 @@
 
       <div class="company">{{ experience.company }}</div>
 
+      <!-- add overview -->
+      {% if experience.overview %}
+      <div class="overview">
+        {{ experience.overview | markdownify }}
+      </div>
+      {% endif %}
+
     </div><!--//meta-->
 
     {% if experience.details %}
@@ -34,4 +41,3 @@
 
 </section><!--//section-->
 {% endif %}
-
