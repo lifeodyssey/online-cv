@@ -66,13 +66,13 @@ experiences:
             I've been involved in this project since the design phase, contributing to the architecture, API, and database design. 
             Currently,my focus is the development of backend using Python and Flask. 
             Additionally, I am tasked with building the backend CI/CD pipeline using Github Actions and AWS.
-          Tech Stack: 
-              - Language: Python, TypeScript
-              - Backend: Flask, SQL Academy
-              - Database: PostgreSQL
-              - DevOps: Github Actions, AWS ECR, AWS ECS
-              - Cloud: AWS, Terraform
-              - Test: Pytest,Cypress
+            Tech Stack: 
+                - Language: Python, TypeScript
+                - Backend: Flask, SQL Academy
+                - Database: PostgreSQL
+                - DevOps: Github Actions, AWS ECR, AWS ECS
+                - Cloud: AWS, Terraform
+                - Test: Pytest,Cypress
  
             <strong>Direct To Customer E-commerce Platform for a global home appliance manufacturer, Jul. 2023-Jan. 2024 </strong>
 
@@ -87,13 +87,13 @@ experiences:
             - Support the system integration test, user acceptance test and roll out in Thailand.
             - Followed the Test-Driven Development approach under trunk based strategy, maintained the test coverage of more than 90\%.
         
-          Tech Stack: 
-              - Language: Kotlin, Typescript, 
-              - Backend: Spring Boot, Koa, Node.js
-              - Database: Azure Cosmos DB
-              - DevOps: Jenkins, Docker, K8S
-              - Cloud: Azure, Terraform
-              - Test: Junit5, MockK, Mokito, Gatling
+            Tech Stack: 
+                - Language: Kotlin, Typescript, 
+                - Backend: Spring Boot, Koa, Node.js
+                - Database: Azure Cosmos DB
+                - DevOps: Jenkins, Docker, K8S
+                - Cloud: Azure, Terraform
+                - Test: Junit5, MockK, Mokito, Gatling
  
 
             <strong>Global Indentity And Access Manegement Platform for An internional Bank, Mar. 2023-Jun. 2023</strong>
@@ -107,13 +107,13 @@ experiences:
             - Set up monitor for downstream system and infra using uptime-kuma on Red Hat OpenShift, provided solid data for the decision of iteration planning.
             - Followed the Test-Driven Development approach under feature branching strategy, maintained the test coverage of more than 90\%.
 
-          Tech Stack: 
-              - Language: Java 
-              - Backend: Spring Boot, Spring Security, 
-              - Database: Apache Director
-              - DevOps: Jenkins, Docker, K8S, Pipeline as Code
-              - Cloud: Openshift
-              - Test: Junit5, Mokito
+            Tech Stack: 
+                - Language: Java 
+                - Backend: Spring Boot, Spring Security, 
+                - Database: Apache Director
+                - DevOps: Jenkins, Docker, K8S, Pipeline as Code
+                - Cloud: Openshift
+                - Test: Junit5, Mokito
 
             <strong>Global Qutation Platform For A Global Insurance Company, Sep. 2022-Mar. 2023</strong>
             
@@ -125,13 +125,13 @@ experiences:
             - Collaborated with cross-functional teams in a multinational, Agile environment to deliver high-quality software on a regular basis, ensuring timely delivery of project milestones.
             - Followed the Test-Driven Development approach under trunk based strategy, maintained the test coverage of more than 90\%.
         
-          Tech Stack: 
-              - Language: Kotlin 
-              - Backend: Spring Boot, Kotlin Multiplatform 
-              - Database: MongoDB
-              - DevOps: Jenkins, Docker,
-              - Cloud: AWS, CloudFormation
-              - Test: Junit5, Mokito, MockK, Gatling
+            Tech Stack: 
+                - Language: Kotlin 
+                - Backend: Spring Boot, Kotlin Multiplatform 
+                - Database: MongoDB
+                - DevOps: Jenkins, Docker,
+                - Cloud: AWS, CloudFormation
+                - Test: Junit5, Mokito, MockK, Gatling
    
             <strong>Report Generator Internal Library, Apr.2022-Sep. 2022</strong>
             
@@ -141,13 +141,13 @@ experiences:
             - Built fully automated CI/CD pipelines for containerized applications using Docker, AWS ECR, and AWS ECS on CircleCI, including four deployment environments (Dev, QA, Stage, and Prod).
             - Implement SQL translate module for the backend using Typescript,Express.js and Node.js
             - Followed the Test-Driven Development approach under trunk based strategy, maintained the test coverage of more than 90\%.
-          Tech Stack: 
-              - Language: TypeScript
-              - Backend: Express.js, Node.js
-              - Database: PostgreSQL
-              - DevOps: CircleCI, Docker, AWS ECR, AWS ECS
-              - Cloud: AWS, Terraform
-              - Test: Junit5, Mokito, MockK
+            Tech Stack: 
+                - Language: TypeScript
+                - Backend: Express.js, Node.js
+                - Database: PostgreSQL
+                - DevOps: CircleCI, Docker, AWS ECR, AWS ECS
+                - Cloud: AWS, Terraform
+                - Test: Junit5, Mokito, MockK
    
            
         Tech Stack In Common: 
