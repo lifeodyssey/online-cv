@@ -77,7 +77,7 @@ experiences:
             Tech Stack: 
 
                 - Language: Python, TypeScript
-                - Backend: Flask, SQL Academy
+                - Backend: Flask, SQLAlchemy
                 - Database: PostgreSQL
                 - DevOps: Github Actions, AWS ECR, AWS ECS
                 - Cloud: AWS, Terraform
