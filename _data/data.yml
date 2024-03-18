@@ -94,7 +94,7 @@ experiences:
             - In order to achieve transactional and sequential daily price, inventory, and product update, which are based on Azure functions, designed and implemented the retry and rollback meachanism by Saga Coordinator and overriding Feign client retryer.
             - Designed and setup the email alert based on Azure Alert and Azure Logic Apps.
             - Support the system integration test, user acceptance test and roll out in Thailand.
-            - Followed the Test-Driven Development approach under trunk based strategy, maintained the test coverage of more than 90\%.
+            - Followed the Test-Driven Development approach under trunk based strategy, maintained the test coverage of more than 90%.
         
             Tech Stack: 
 
@@ -115,7 +115,7 @@ experiences:
             - Conducted API test to ensure the funcionality for user journey.
             - Collaborated with DevOps team to upgrade the CI/CD pipeline using Jenkins Shared Library, which reduced the onboarding time for new micro-services and supported agile development.
             - Set up monitor for downstream system and infra using uptime-kuma on Red Hat OpenShift, provided solid data for the decision of iteration planning.
-            - Followed the Test-Driven Development approach under feature branching strategy, maintained the test coverage of more than 90\%.
+            - Followed the Test-Driven Development approach under feature branching strategy, maintained the test coverage of more than 90%.
 
             Tech Stack: 
 
@@ -134,7 +134,7 @@ experiences:
             - Enhanced the insurance quotation module to achieve 50% improved API response times through in-memory caching and API optimization, using insights from simulated real-world user scenarios with Gatling.
             - Upgraded feature toggle SaaS services for the entire project, replacing the previous hard-coded feature toggle.
             - Collaborated with cross-functional teams in a multinational, Agile environment to deliver high-quality software on a regular basis, ensuring timely delivery of project milestones.
-            - Followed the Test-Driven Development approach under trunk based strategy, maintained the test coverage of more than 90\%.
+            - Followed the Test-Driven Development approach under trunk based strategy, maintained the test coverage of more than 90%.
         
             Tech Stack: 
 
@@ -152,7 +152,7 @@ experiences:
             - Participated in full software development life cycle process, from interview, proposal to development and internal release.
             - Built fully automated CI/CD pipelines for containerized applications using Docker, AWS ECR, and AWS ECS on CircleCI, including four deployment environments (Dev, QA, Stage, and Prod).
             - Implement SQL translate module for the backend using Typescript,Express.js and Node.js
-            - Followed the Test-Driven Development approach under trunk based strategy, maintained the test coverage of more than 90\%.
+            - Followed the Test-Driven Development approach under trunk based strategy, maintained the test coverage of more than 90%.
             
             Tech Stack: 
 
