@@ -67,7 +67,7 @@ experiences:
             <strong>Physican's "Duolingo" - An AI based web application for better medical desicion making, Feb. 2024-now</strong>
 
             This project's goal is to develop a physician's version of "Duolingo" to enhance the skills of junior physicians using AI. 
-            The data collected by this application can also support internal university research on the psychology of decision-making in pathological diagnoses by physican. 
+            The data collected by this application can also support internal university research on the psychology of decision-making in cases diagnoses by physican. 
             
             - Developed a Python and Flask-based development scaffold including hooks, linting, testing, test coverage, database ORM and migration with SQLAlchemy and Alembic, and configured local development environments.
             - Designed and constructed a CI/CD pipeline utilizing GitHub Actions and AWS, authored a Dockerfile for application containerization, and integrated AWS Secret Manager to securely manage keys and secrets.
