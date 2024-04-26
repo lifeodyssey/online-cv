@@ -66,13 +66,16 @@ experiences:
             
             <strong>Physican's "Duolingo" - An AI based web application for better medical desicion making, Feb. 2024-now</strong>
 
-            This project's goal is to develop a physician's version of "Duolingo" to enhance the skills of junior physicians using AI.
+            This project's goal is to develop a physician's version of "Duolingo" to enhance the skills of junior physicians using AI. 
+            The data collected by this application can also support internal university research on the psychology of decision-making in pathological diagnoses by physican. 
             
-            I've been involved in this project since the design phase, contributing to the architecture, API, and database design. 
+            - Developed a Python and Flask-based development scaffold including hooks, linting, testing, test coverage, database ORM and migration with SQLAlchemy and Alembic, and configured local development environments.
+            - Designed and constructed a CI/CD pipeline utilizing GitHub Actions and AWS, authored a Dockerfile for application containerization, and integrated AWS Secret Manager to securely manage keys and secrets.
+            - Designed and Implemented a secure user authentication system with token issuance, refresh, and expiration functionalities, and developed a suite of utilities and decorators to streamline development processes.
+            - Contributed to the research and design of a medical case database, opting for the OMOP CDM 5.4 framework, and authored the DDL for the database schema to ensure compatibility with a wide range of medical data formats.
+            - Managed infrastructure setup using Terraform and AWS, deploying resources like Secret Manager, EC2, RDS, and ECS to support containerized application operations.
+            - Maintained a test-driven development (TDD) approach, achieving over 90% test coverage for backend code to ensure robustness and reliability.
             
-            Currently,my focus is the development of backend using Python and Flask. 
-            
-            Additionally, I am tasked with building the backend CI/CD pipeline using Github Actions and AWS.
 
             Tech Stack: 
 
@@ -102,7 +105,7 @@ experiences:
                 - Backend: Spring Boot, Koa, Node.js
                 - Database: Azure Cosmos DB
                 - DevOps: Jenkins, Docker, K8S
-                - Cloud: Azure, Terraform
+                - Cloud: Azure, Terraform, Azure Kubernetes Service
                 - Test: Junit5, MockK, Mokito, Gatling
  
 
