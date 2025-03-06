@@ -65,6 +65,7 @@ experiences:
         details: |
 
             <strong>A 2C 2B Integrated Information Management System for an Australia Steel Enterprise (Oct. 2023-Present)</strong>
+
             *DevOps Engineer*  
 
             - **Multi-Environment Architecture**: Designed and implemented a comprehensive deployment strategy utilizing AWS Amplify for frontend and ECS/ECR for backend services, establishing consistent environments across development, QA, and UAT.
@@ -80,13 +81,16 @@ experiences:
             - **Cost Optimization**: Reduced monthly AWS expenditure by 30% through implementation of ECS auto-scaling strategies, spot instance utilization, and environment consolidation for non-production workloads.
 
             - **Local Development**: Created comprehensive local testing framework using Testcontainers, LocalStack and Keycloak to simulate production AWS services (Cognito, S3, SQS), enabling offline development and reducing cloud testing costs.
+            
             *Tech Stack*:  
-            - AWS (Amplify, ECS/ECR, RDS PostgreSQL, SQS, WAF, Cognito, Secret Manager, IAM, VPC, CloudWatch)  
-            - Terraform, GitHub Actions, Docker  
-            - Keycloak, LocalStack, Testcontainers
+
+                - AWS (Amplify, ECS/ECR, RDS PostgreSQL, SQS, WAF, Cognito, Secret Manager, IAM, VPC, CloudWatch)  
+                - Terraform, GitHub Actions, Docker  
+                - Keycloak, LocalStack, Testcontainers
            
             
             <strong>AugMed AI - Clinical Decision Support Platform (Feb. 2024-Oct. 2024)</strong>
+            
             **Full-Stack & DevOps Developer**
 
 
