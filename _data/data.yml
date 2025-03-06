@@ -9,7 +9,7 @@ sidebar:
 
     # Profile information
     name: Zhenjia Zhou
-    tagline: Backend & DevOps Engigeer
+    tagline: Backend & DevOps Engineer 
     avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -36,8 +36,10 @@ career-profile:
     title: Career Profile
     summary: |
           Zhenjia is a Backend and DevOps developer at Thoughtworks . 
+
           He is passionate about staying up-to-date with the latest technical trends and is a strong communicator and collaborator who writes clean, well-organized code. 
-          Zhenjia is seeking a Software Engineering position to design and implement scalable, reliable systems from infrastructure to api.
+
+          Zhenjia is seeking a Software Engineering position to design and implement scalable, reliable systems from infrastructure to API.
 
 education:
     title: Education
@@ -60,13 +62,19 @@ experiences:
         company: Thoughtworks, Chengdu, China
         overview: |
             Throughout my time at Thoughtworks, I've consistently applied a robust set of methodologies and tools across  projects.
+
+            My skill contains:
+              - Backend: Kotlin/Java with Spring, TypeScript/JavaScript with Next.js and Nest.js, Python with Flask
+              - Frontend:  TypeScript/JavaScript with React.js, Material UI, HTML, CSS
+              - Database: PostgreSQL, Flyway, MongoDB, Spring JPA, Alembic, Prisma
+              - Cloud & DevOps: AWS, Terraform, CloudFormation, Github Action, CircleCI, 
               - Methodologies: Scrum, XP, Agile, RESTful API, Test Driven Development, Clean Code
               - Tools and more: Linux, Git, SQL， Nginx, IntelliJ IDEA, Postman, Confluence, Jira, Trello, CI/CD, Docker, TestContainer
         details: |
 
             <strong>A 2C 2B Integrated Information Management System for an Australia Steel Enterprise (Oct. 2023-Present)</strong>
 
-            *DevOps Engineer*  
+            **DevOps Engineer**  
 
             - **Multi-Environment Architecture**: Designed and implemented a comprehensive deployment strategy utilizing AWS Amplify for frontend and ECS/ECR for backend services, establishing consistent environments across development, QA, and UAT.
 
@@ -90,7 +98,7 @@ experiences:
            
             
             <strong>AugMed AI - Clinical Decision Support Platform (Feb. 2024-Oct. 2024)</strong>
-            
+
             **Full-Stack & DevOps Developer**
 
 
@@ -220,9 +228,6 @@ experiences:
 oss:
     title: OSS Contributions
     contributions:
-      - title: Backend Demo
-        link: "https://github.com/lifeodyssey/microservice-demo"
-        tagline: "This code repository is a demonstration of basic work and best practices for backend development"
 
       - title: obsidian-hexo-auto-update
         link: "https://github.com/lifeodyssey/obsidian-hexo-auto-update"
