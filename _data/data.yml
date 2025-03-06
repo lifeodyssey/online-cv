@@ -9,7 +9,7 @@ sidebar:
 
     # Profile information
     name: Zhenjia Zhou
-    tagline: Backend Developer
+    tagline: Backend & DevOps Engigeer
     avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -25,19 +25,19 @@ sidebar:
 
     languages:
       title: Languages
-      info: |
+      info:
         - idiom: English
-          level: Business
+          level: Business 
 
         - idiom: Japanese
-          level: Conversational(JLPT N2)
+          level: Intermediate JLPT N2 109
 
 career-profile:
     title: Career Profile
     summary: |
-          Zhenjia is a backend software developer at Thoughtworks with some experience in DevOps and machine learning development. 
+          Zhenjia is a Backend and DevOps developer at Thoughtworks . 
           He is passionate about staying up-to-date with the latest technical trends and is a strong communicator and collaborator who writes clean, well-organized code. 
-          Zhenjia is seeking a backend developer position to design and implement scalable, reliable systems.
+          Zhenjia is seeking a Software Engineering position to design and implement scalable, reliable systems from infrastructure to api.
 
 education:
     title: Education
@@ -54,61 +54,162 @@ education:
 
 experiences:
     title: Experiences
-    info:
-      - role: Backend Developer
+    info: 
+      - role: Software Developer
         time: Apr.2022 - Present
         company: Thoughtworks, Chengdu, China
+        overview: |
+            Throughout my time at Thoughtworks, I've consistently applied a robust set of methodologies and tools across  projects.
+              - Methodologies: Scrum, XP, Agile, RESTful API, Test Driven Development, Clean Code
+              - Tools and more: Linux, Git, SQL， Nginx, IntelliJ IDEA, Postman, Confluence, Jira, Trello, CI/CD, Docker, TestContainer
         details: |
-            Direct To Customer E-commerce Platform for a global home appliance manufacturer, Jul. 2023-now
-            I played the role of sub-leader in this project, responsible for the integration middleware between SAP (order, price and inventory service) and a PaaS e-commers platform(which provide customer interface and back-office stuff interface).
-            This middleware could achieve daily update of price and inventory and near real time update of order.
-            - Responsible for the investagation of payment solution and Implemented Proof-Of-Concept payment integration based on AWS Lambda  during the request for proposal (RFP) phase for this new project.
-            - Co-desgined the solution to update PasS in-time based on message queue and asynchronous callback.
-            - Implemented the logic of inventory and invoice update logic in the backend service.
-            - Set up the service level logger and azure as a transition plan to inform back-office stuff of service error.
 
-            Global Indentity And Access Manegement Platform for An internional Bank, Mar. 2023-Jun. 2023
-            My main achievement in this project is to develop the "Single-Sign-On" and proposed the plan of seamless feature roll-out based on the stability monitor for downstream third-party service.
+            <strong>A 2C 2B Integrated Information Management System for an Australia Steel Enterprise (Oct. 2023-Present)</strong>
+            *DevOps Engineer*  
+
+            - **Multi-Environment Architecture**: Designed and implemented a comprehensive deployment strategy utilizing AWS Amplify for frontend and ECS/ECR for backend services, establishing consistent environments across development, QA, and UAT.
+
+            - **Multi-Account IAM Strategy**: Architected a three-account security model (DevOps, Dev/QA, UAT) with granular IAM roles and cross-account permissions, implementing principle of least privilege through custom policies and OIDC federation.
+
+            - **Infrastructure as Code**: Provisioned and managed critical AWS resources using Terraform including ECS clusters, RDS PostgreSQL instances, WAF configurations, SQS queues, and Cognito user pools, achieving 100% infrastructure reproducibility.
+
+            - **CI/CD Pipeline Optimization**: Designed modular CI/CD workflows with parameterized GitHub Actions, reducing deployment time from 40+ minutes to under 10 minutes through parallel execution and artifact caching.
+
+            - **Database Security**: Implemented fine-grained RDS PostgreSQL role-based access control with custom schema permissions, and established secure bastion host access patterns for administrative functions.
+
+            - **Cost Optimization**: Reduced monthly AWS expenditure by 30% through implementation of ECS auto-scaling strategies, spot instance utilization, and environment consolidation for non-production workloads.
+
+            - **Local Development**: Created comprehensive local testing framework using Testcontainers, LocalStack and Keycloak to simulate production AWS services (Cognito, S3, SQS), enabling offline development and reducing cloud testing costs.
+            *Tech Stack*:  
+            - AWS (Amplify, ECS/ECR, RDS PostgreSQL, SQS, WAF, Cognito, Secret Manager, IAM, VPC, CloudWatch)  
+            - Terraform, GitHub Actions, Docker  
+            - Keycloak, LocalStack, Testcontainers
+           
+            
+            <strong>AugMed AI - Clinical Decision Support Platform (Feb. 2024-Oct. 2024)</strong>
+            **Full-Stack & DevOps Developer**
+
+
+            Contributed as a key developer to an AI-powered clinical training application ("physician's Duolingo") that enhances diagnostic skills for junior physicians while supporting university research on medical decision-making.
+
+            - **Backend Architecture**: Engineered Python/Flask scaffolding with pre-commit hooks, custom decorators, and SQLAlchemy ORM integration, establishing development standards that reduced onboarding time by 40%.
+            - **Authentication System**: Designed JWT-based authentication with refresh token rotation and role-based access control, supporting 4 distinct permission levels for researchers, physicians, administrators, and patients.
+            - **Medical Database Design**: Implemented OMOP CDM 5.4 framework for clinical data standardization, enabling compatibility with external hospital systems and supporting 200+ standardized medical case scenarios.
+            - **API Development**: Created REST endpoints for case assignment, CSV data import, and analytical dashboards with 98% test coverage through pytest fixtures and mocking strategies.
+            - **Internationalization Framework**: Built backend i18n scaffold for Healthy Future initiative, transforming translation workflow from manual updates to configuration-as-code, supporting 5 languages and reducing localization time by 65%.
+            - **Client Communication**: Led 10+ client showcases with American stakeholders, demonstrating technical solutions and resolving real-time issues. Actively supported client inquiries via Slack, contributing to successful project extension.
+            - **DevOps Implementation**: Established CI/CD pipeline with GitHub Actions for containerized deployment to AWS ECS, integrating Secrets Manager for secure credential handling and achieving zero security breaches.
+            
+            Tech Stack: 
+
+                - Language: Python, TypeScript
+                - Backend: Flask, SQLAlchemy
+                - Database: PostgreSQL
+                - DevOps: Github Actions, AWS ECR, AWS ECS
+                - Cloud: AWS, Terraform
+                - Test: Pytest,Cypress
+ 
+            <strong>Direct To Customer E-commerce Platform for a global home appliance manufacturer, Jul. 2023-Jan. 2024 </strong>
+
+            I played the role of sub-leader in this project, responsible for integrating middleware between SAP (order, price, product and inventory service) and a PaaS e-commerce platform (which provides customer interface and back-office stuff interface).
+            
+            This middleware could achieve daily updates of price, inventory and product and near real time sync of order.
+            - Responsible for investigating payment solutions and implementing a Proof-Of-Concept payment integration based on AWS Lambda during the request for proposal phase for this new project.
+            - Co-designed and implemented the solution to sync order from PasS in real time to SAP based on message queue and asynchronous callback.
+            - Designed, implemented and refactor service modules for objects with more than five hundred fields using Chain of Responsibility and Strategy Patterns
+            - In order to achieve transactional and sequential daily price, inventory, and product update, which are based on Azure functions, designed and implemented the retry and rollback meachanism by Saga Coordinator and overriding Feign client retryer.
+            - Designed and setup the email alert based on Azure Alert and Azure Logic Apps.
+            - Support the system integration test, user acceptance test and roll out in Thailand.
+            - Followed the Test-Driven Development approach under trunk based strategy, maintained the test coverage of more than 90%.
+        
+            Tech Stack: 
+
+                - Language: Kotlin, Typescript, 
+                - Backend: Spring Boot, Koa, Node.js
+                - Database: Azure Cosmos DB
+                - DevOps: Jenkins, Docker, K8S
+                - Cloud: Azure, Terraform, Azure Kubernetes Service
+                - Test: Junit5, MockK, Mokito, Gatling
+ 
+
+            <strong>Global Indentity And Access Manegement Platform for An internional Bank, Mar. 2023-Jun. 2023</strong>
+
+            My main achievement in this project was the development the user identification logic and proposal of seamless feature roll-out based on the stability monitor for downstream third-party service.
+            
             - Developed Single-Sign-On authentication feature, enabling direct login from third-party apps via the primary banking application.
             - Proposed and led the seamless back-end system upgrades based on the results of a self-hosted monitor, utilizing the Strangler Pattern and Continuous Deployment, addressing instability issues in third-party authentication services.
-            - Conducted API test to insure the funcionality for user journey.
+            - Conducted API test to ensure the funcionality for user journey.
             - Collaborated with DevOps team to upgrade the CI/CD pipeline using Jenkins Shared Library, which reduced the onboarding time for new micro-services and supported agile development.
-            - Set up monitor for  downstream system and infra using uptime-kuma on Red Hat OpenShift, provided solid data for the decision of iteration planning.
+            - Set up monitor for downstream system and infra using uptime-kuma on Red Hat OpenShift, provided solid data for the decision of iteration planning.
+            - Followed the Test-Driven Development approach under feature branching strategy, maintained the test coverage of more than 90%.
 
-            Global Qutation Platform For A Global Insurance Company, Sep. 2022-Mar. 2023
-            Actived as a backend developer to build backend backend-for-frontend service for the quotation platform.
-            - Implemented RESTful API for an international insurance company's insurance quotation micro-service using Spring Boot, with the enablement of offline sdk based on Kotlin Multiplatform.
-            - Enhanced the insurance quotation module to achieve 50\% improved API response times through in-memory caching and API optimization, using insights from simulated real-world user scenarios with Gatling.
+            Tech Stack: 
+
+                - Language: Java 
+                - Backend: Spring Boot, Spring Security, 
+                - Database: Apache Director
+                - DevOps: Jenkins, Docker, K8S, Pipeline as Code
+                - Cloud: Openshift
+                - Test: Junit5, Mokito
+
+            <strong>Global Qutation Platform For A Global Insurance Company, Sep. 2022-Mar. 2023</strong>
+            
+            Acted as a backend developer to build backend-for-frontend service for the quotation platform.
+            
+            - Implemented RESTful API for an international insurance company's insurance quotation micro-service using Spring Boot, with the enablement of and offline sdk based on Kotlin Multiplatform.
+            - Enhanced the insurance quotation module to achieve 50% improved API response times through in-memory caching and API optimization, using insights from simulated real-world user scenarios with Gatling.
             - Upgraded feature toggle SaaS services for the entire project, replacing the previous hard-coded feature toggle.
             - Collaborated with cross-functional teams in a multinational, Agile environment to deliver high-quality software on a regular basis, ensuring timely delivery of project milestones.
+            - Followed the Test-Driven Development approach under trunk based strategy, maintained the test coverage of more than 90%.
+        
+            Tech Stack: 
+
+                - Language: Kotlin 
+                - Backend: Spring Boot, Kotlin Multiplatform 
+                - Database: MongoDB
+                - DevOps: Jenkins, Docker,
+                - Cloud: AWS, CloudFormation
+                - Test: Junit5, Mokito, MockK, Gatling
    
-            Report Generator Internal Library, Apr.2022-Sep. 2022
-            Mainly played the role as a DevOps to build the CI/CD pipeline
-            - Participated in full software development life cycle process from interview, proposal to development and internal release.
+            <strong>Report Generator Internal Library, Apr.2022-Sep. 2022</strong>
+            
+            Mainly played the role of a DevOps engineer to build the CI/CD pipeline
+            
+            - Participated in full software development life cycle process, from interview, proposal to development and internal release.
             - Built fully automated CI/CD pipelines for containerized applications using Docker, AWS ECR, and AWS ECS on CircleCI, including four deployment environments (Dev, QA, Stage, and Prod).
             - Implement SQL translate module for the backend using Typescript,Express.js and Node.js
+            - Followed the Test-Driven Development approach under trunk based strategy, maintained the test coverage of more than 90%.
             
-          Tech Stack: |
-              - Language: Kotlin, Typescript, JavaScript
-              - Backend: Spring Boot, Spring Data, Spring MVC, Kotlin Multiplatform, Express, Node.js
-              - Database: PostgreSQL, MongoDB, MySQL
-              - DevOps: Jenkins, CircleCI, Github Actions, Pipeline as Code, Docker
-              - Cloud: AWS, Terraform, CloudFormation, Infrastructure as Code
-              - Test: Junit5, MockK, Mokito, Gatling
-              - Methodologies: Scrum, XP, Agile, RESTful API, Test Driven Development
-              - Others: Linux, Git, SQL， Nginx, IntelliJ IDEA, Postman, Confluence, Jira, Trello
+            Tech Stack: 
 
+                - Language: TypeScript
+                - Backend: Express.js, Node.js
+                - Database: PostgreSQL
+                - DevOps: CircleCI, Docker, AWS ECR, AWS ECS
+                - Cloud: AWS, Terraform
+                - Test: Junit5, Mokito, MockK
+
+      - role: Backend Developer(part time, remotely)
+        time: Oct. 2023- Dec. 2023
+        company: Grid Solution, Tokyo, Japan
+        details: |
+            I participated in the backend development of Bidder, a web application for electric power predication and trade.
+
+            - Discovered and improved the efficiency of the logging of the backend system, include AWS X-Ray SDK integration and logging middleware implementation.
+            - Implemented unit test and API test , fixed bugs for backend service. 
+        Tech Stack:  Typescript, NestJS, Prisima, LocalStack, AWS Lambda,AWS S3, Circle CI, Jest, Mocha, PostgreSQL
 
       - role: Remote Sensing Engineer
         time: Nov.2021 - Feb.2022
         company: Dadi Weattech Inc, Beijing, China
         details: |
-            In this company, he is the main responsible person for aquatic remote sensing image processing algorithms. 
+            In this company, I'm the main responsible person for aquatic remote sensing image processing algorithms. 
+
             - Introduced the company to the aquatic remote sensing image processing system based on SeaDAS, demonstrating the ability to research, learn, and share new technologies to improve the company's competitiveness.
             - Developed a data-driven satellite remote sensing algorithm utilizing machine learning and geo-statistics for efficient water quality monitoring, demonstrating analytical and problem-solving skills.
             - Enhanced data processing efficiency by implementing parallel batch processing for multiple satellite data sources, highlighting performance optimization skills.
-            - communicated complex remote sensing-based technology solutions to stakeholders, demonstrating strong presentation and interpersonal skills.
-          Tech Stack:  
+            - Communicated complex remote sensing-based technology solutions to stakeholders, demonstrating strong presentation and interpersonal skills.
+        Tech Stack:  
             - Language: Python, R
             - Libaray: Pandas, Numpy, GDAL, sci-kit learn, Pytorch, OpenCV, Scipy, AutoML, XGBoost
 
@@ -116,17 +217,12 @@ oss:
     title: OSS Contributions
     contributions:
       - title: Backend Demo
-        link: "https://github.com/lifeodyssey/demo"
-        tagline: |
-        This code repository is a demonstration of basic work and best practices for backend development. The main feature is
-        - Jenkins CI/CD pipeline and blue/green deployment using Nginx.
-        - Basic CRUD RESTFULL API with TDD
-        - MongoDB migration using Mongock
-        - Exception handling
-        - Logging
+        link: "https://github.com/lifeodyssey/microservice-demo"
+        tagline: "This code repository is a demonstration of basic work and best practices for backend development"
+
       - title: obsidian-hexo-auto-update
         link: "https://github.com/lifeodyssey/obsidian-hexo-auto-update"
-        tagline: "The Obsidian-Hexo Integration plugin allows you to monitor changes in your Obsidian vault, specifically the _posts folder, and automatically commit and push them to your Hexo blog repository, without set up local node.js environment and accelerate the speed from writing to publishment."
+        tagline: "The Obsidian-Hexo Integration plugin could accelerate the speed from writing to publishment based on Hexo, Obsidian and Github Actions."
 
 
       - title: Rayleigh Correction
@@ -147,9 +243,8 @@ certifications:
           start: 2023
           end: 2026
           organization: AWS
-          credentialid: 111-222
           credentialurl: https://stripecertifications.credential.net/5b6b164b-7d3d-4398-8e50-23b90f114378
-          credentialname: AWS
+
 skills:
     title: Skills &amp; Proficiency
 
@@ -157,6 +252,10 @@ skills:
       - name: Koltin & Spring Boot
         level: 90%
 
+      - name: AWS & Terraform
+        level: 90%
+      - name: CI/CD
+        level: 90%
       - name: TypeScript & Node.js
         level: 80%
 
