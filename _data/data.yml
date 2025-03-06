@@ -3,284 +3,166 @@
 #
 
 sidebar:
-  position: right # position of the sidebar : left or right
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  education: True # set to False if you want education in main section instead of in sidebar
+    position: right # position of the sidebar : left or right
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
 
-  # Profile information
-  name: Alan Doe
-  tagline: Full Stack Developer
-  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    # Profile information
+    name: Zhenjia Zhou
+    tagline: Backend Developer
+    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-  # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-  citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
-  telegram: # add your nickname without '@' sign
-  gitlab:
-  bitbucket:
-  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  twitter: '@jekyllrb'
-  stack-overflow: # Number/Username, e.g. 123456/alandoe
-  codewars:
-  goodreads: # Number-Username, e.g. 123456-alandoe
-  mastodon: # Please include your full Mastodon link here.
-  hackerrank: # Please provide your HackerRank username.
-  leetcode: # Please provide your LeetCode username.
-  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+    # Sidebar links
+    email: zhenjiazhou0127@outlook.com
+    phone: +86 156 5017 9824
+    timezone: China/Taiwan Timezone
+    citizenship: Chinese
+    website: lifeodyssey.github.io #do not add http://
+    linkedin: https://www.linkedin.com/in/zhenjia-zhou/
+    github: lifeodyssey
 
-  languages:
-    title: Languages
-    info:
-    - idiom: English
-      level: Native
+    pdf: http://lifeodyssey.github.io/online-cv/print
 
-    - idiom: French
-      level: Professional
+    languages:
+      title: Languages
+      info: |
+        - idiom: English
+          level: Business
 
-    - idiom: Spanish
-      level: Professional
-
-  interests:
-    title: Interests
-    info:
-    - item: Climbing
-      link:
-
-
-    - item: Snowboarding
-      link:
-
-
-    - item: Cooking
-      link:
-
+        - idiom: Japanese
+          level: Conversational(JLPT N2)
 
 career-profile:
-  title: Career Profile
-  summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+    title: Career Profile
+    summary: |
+          Zhenjia is a backend software developer at Thoughtworks with some experience in DevOps and machine learning development. 
+          He is passionate about staying up-to-date with the latest technical trends and is a strong communicator and collaborator who writes clean, well-organized code. 
+          Zhenjia is seeking a backend developer position to design and implement scalable, reliable systems.
+
 education:
-  title: Education
-  info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+    title: Education
+    info:
+      - degree: MSc in Earth and Environmental Sciences
+        university: Nagoya University
+        time: 2019 - 2021
+        details: |
+
+      - degree: BSc in Marine Rescource and Environment
+        university: Ocean University
+        time: 2015 - 2019
+        details: |
 
 experiences:
-  title: Experiences
-  info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
+    title: Experiences
+    info:
+      - role: Backend Developer
+        time: Apr.2022 - Present
+        company: Thoughtworks, Chengdu, China
+        details: |
+            Direct To Customer E-commerce Platform for a global home appliance manufacturer, Jul. 2023-now
+            I played the role of sub-leader in this project, responsible for the integration middleware between SAP (order, price and inventory service) and a PaaS e-commers platform(which provide customer interface and back-office stuff interface).
+            This middleware could achieve daily update of price and inventory and near real time update of order.
+            - Responsible for the investagation of payment solution and Implemented Proof-Of-Concept payment integration based on AWS Lambda  during the request for proposal (RFP) phase for this new project.
+            - Co-desgined the solution to update PasS in-time based on message queue and asynchronous callback.
+            - Implemented the logic of inventory and invoice update logic in the backend service.
+            - Set up the service level logger and azure as a transition plan to inform back-office stuff of service error.
 
-certifications:
-  title: Certifications
-  list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
-    details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+            Global Indentity And Access Manegement Platform for An internional Bank, Mar. 2023-Jun. 2023
+            My main achievement in this project is to develop the "Single-Sign-On" and proposed the plan of seamless feature roll-out based on the stability monitor for downstream third-party service.
+            - Developed Single-Sign-On authentication feature, enabling direct login from third-party apps via the primary banking application.
+            - Proposed and led the seamless back-end system upgrades based on the results of a self-hosted monitor, utilizing the Strangler Pattern and Continuous Deployment, addressing instability issues in third-party authentication services.
+            - Conducted API test to insure the funcionality for user journey.
+            - Collaborated with DevOps team to upgrade the CI/CD pipeline using Jenkins Shared Library, which reduced the onboarding time for new micro-services and supported agile development.
+            - Set up monitor for  downstream system and infra using uptime-kuma on Red Hat OpenShift, provided solid data for the decision of iteration planning.
 
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
-    start: 2019
-    end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
-    details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+            Global Qutation Platform For A Global Insurance Company, Sep. 2022-Mar. 2023
+            Actived as a backend developer to build backend backend-for-frontend service for the quotation platform.
+            - Implemented RESTful API for an international insurance company's insurance quotation micro-service using Spring Boot, with the enablement of offline sdk based on Kotlin Multiplatform.
+            - Enhanced the insurance quotation module to achieve 50\% improved API response times through in-memory caching and API optimization, using insights from simulated real-world user scenarios with Gatling.
+            - Upgraded feature toggle SaaS services for the entire project, replacing the previous hard-coded feature toggle.
+            - Collaborated with cross-functional teams in a multinational, Agile environment to deliver high-quality software on a regular basis, ensuring timely delivery of project milestones.
+   
+            Report Generator Internal Library, Apr.2022-Sep. 2022
+            Mainly played the role as a DevOps to build the CI/CD pipeline
+            - Participated in full software development life cycle process from interview, proposal to development and internal release.
+            - Built fully automated CI/CD pipelines for containerized applications using Docker, AWS ECR, and AWS ECS on CircleCI, including four deployment environments (Dev, QA, Stage, and Prod).
+            - Implement SQL translate module for the backend using Typescript,Express.js and Node.js
+            
+          Tech Stack: |
+              - Language: Kotlin, Typescript, JavaScript
+              - Backend: Spring Boot, Spring Data, Spring MVC, Kotlin Multiplatform, Express, Node.js
+              - Database: PostgreSQL, MongoDB, MySQL
+              - DevOps: Jenkins, CircleCI, Github Actions, Pipeline as Code, Docker
+              - Cloud: AWS, Terraform, CloudFormation, Infrastructure as Code
+              - Test: Junit5, MockK, Mokito, Gatling
+              - Methodologies: Scrum, XP, Agile, RESTful API, Test Driven Development
+              - Others: Linux, Git, SQL， Nginx, IntelliJ IDEA, Postman, Confluence, Jira, Trello
 
-projects:
-  title: Projects
-  intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-  - title: DevStudio
-    link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
-
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - role: Remote Sensing Engineer
+        time: Nov.2021 - Feb.2022
+        company: Dadi Weattech Inc, Beijing, China
+        details: |
+            In this company, he is the main responsible person for aquatic remote sensing image processing algorithms. 
+            - Introduced the company to the aquatic remote sensing image processing system based on SeaDAS, demonstrating the ability to research, learn, and share new technologies to improve the company's competitiveness.
+            - Developed a data-driven satellite remote sensing algorithm utilizing machine learning and geo-statistics for efficient water quality monitoring, demonstrating analytical and problem-solving skills.
+            - Enhanced data processing efficiency by implementing parallel batch processing for multiple satellite data sources, highlighting performance optimization skills.
+            - communicated complex remote sensing-based technology solutions to stakeholders, demonstrating strong presentation and interpersonal skills.
+          Tech Stack:  
+            - Language: Python, R
+            - Libaray: Pandas, Numpy, GDAL, sci-kit learn, Pytorch, OpenCV, Scipy, AutoML, XGBoost
 
 oss:
-  title: OSS Contributions
-  intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+    title: OSS Contributions
+    contributions:
+      - title: Backend Demo
+        link: "https://github.com/lifeodyssey/demo"
+        tagline: |
+        This code repository is a demonstration of basic work and best practices for backend development. The main feature is
+        - Jenkins CI/CD pipeline and blue/green deployment using Nginx.
+        - Basic CRUD RESTFULL API with TDD
+        - MongoDB migration using Mongock
+        - Exception handling
+        - Logging
+      - title: obsidian-hexo-auto-update
+        link: "https://github.com/lifeodyssey/obsidian-hexo-auto-update"
+        tagline: "The Obsidian-Hexo Integration plugin allows you to monitor changes in your Obsidian vault, specifically the _posts folder, and automatically commit and push them to your Hexo blog repository, without set up local node.js environment and accelerate the speed from writing to publishment."
 
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Rayleigh Correction
+        link: "https://github.com/lifeodyssey/RayleighCorrection"
+        tagline: "Rayleigh Correction implementation based on 6S radiation transfer simulation for remote sensing satellites images including GK2A, Himawari-8, etc "
 
-publications:
-  title: Publications
-  intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
-  papers:
-  - title: The Art of Computer Programming
-    link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
+certifications:
+      title: Stripe Certified Associate Developer
+      list:
+        - name: Stripe Certified Associate Developer
+          start: 2023
+          end: 2025
+          organization: Stripe
+          credentialid: 83656858
+          credentialurl: https://stripecertifications.credential.net/5b6b164b-7d3d-4398-8e50-23b90f114378#gs.6939gu
 
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-  - title: A syntax directed compiler for Algol 60
-    link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
-
-recommendations:
-  title: Recommendations
-  list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      I would like to work with Alan Doe again!
-
-      He is a great employee!
-
+        - name: Architecting on AWS with AWS Jam
+          start: 2023
+          end: 2026
+          organization: AWS
+          credentialid: 111-222
+          credentialurl: https://stripecertifications.credential.net/5b6b164b-7d3d-4398-8e50-23b90f114378
+          credentialname: AWS
 skills:
-  title: Skills &amp; Proficiency
+    title: Skills &amp; Proficiency
 
-  toolset:
-  - name: Python & Django
-    level: 98%
+    toolset:
+      - name: Koltin & Spring Boot
+        level: 90%
 
-  - name: Javascript & jQuery
-    level: 98%
+      - name: TypeScript & Node.js
+        level: 80%
 
-  - name: Angular
-    level: 98%
+      - name: Python & Machine Learning
+        level: 65%
 
-  - name: HTML5 & CSS
-    level: 95%
+      - name: JavaScirpt & React.js
+        level: 65%
 
-  - name: Ruby on Rails
-    level: 85%
-
-  - name: Sketch & Photoshop
-    level: 60%
-
-footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
