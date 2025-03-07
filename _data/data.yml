@@ -116,6 +116,7 @@ experiences:
 
                 - Language: Python, TypeScript
                 - Backend: Flask, SQLAlchemy
+                - Frontend: React.js, Material UI
                 - Database: PostgreSQL
                 - DevOps: Github Actions, AWS ECR, AWS ECS
                 - Cloud: AWS, Terraform
@@ -136,7 +137,7 @@ experiences:
         
             Tech Stack: 
 
-                - Language: Kotlin, Typescript, 
+                - Language: Kotlin, Typescript,
                 - Backend: Spring Boot, Koa, Node.js
                 - Database: Azure Cosmos DB
                 - DevOps: Jenkins, Docker, K8S
