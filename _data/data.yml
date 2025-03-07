@@ -78,7 +78,7 @@ experiences:
 
             - **Multi-Environment Architecture**: Designed and implemented a comprehensive deployment strategy utilizing AWS Amplify for frontend and ECS/ECR for backend services, establishing consistent environments across development, QA, and UAT.
 
-            - **Multi-Account IAM Strategy**: Architected a three-account security model (DevOps, Dev/QA, UAT) with granular IAM roles and cross-account permissions, implementing principle of least privilege through custom policies and OIDC federation.
+            - **Multi-Account IAM Strategy**: Architected a four-account security model (DevOps, Dev, UAT, Staging) with granular IAM roles and cross-account permissions, implementing principle of least privilege through custom policies and OIDC federation.
 
             - **Infrastructure as Code**: Provisioned and managed critical AWS resources using Terraform including ECS clusters, RDS PostgreSQL instances, WAF configurations, SQS queues, and Cognito user pools, achieving 100% infrastructure reproducibility.
 
